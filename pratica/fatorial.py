@@ -7,4 +7,4 @@ while index < number:
     produtoFinal = produtoFinal * (index + 1)
     index = index + 1
 
-print(number, "! =", produtoFinal)
+print(produtoFinal)

@@ -9,4 +9,4 @@ while index < numberLength:
     number = number // 10
     index += 1
 
-print("a soma final eh", somaFinal)
+print(somaFinal)

@@ -9,11 +9,10 @@ delta = b ** 2 - 4 * a * c
 if delta < 0:
     print("Equação não tem números reais!")
 else: 
+    raizI = (-b + math.sqrt(delta)) / (2 * a)
     print("Delta =", delta)
-    if delta > 0:
-        raizI = (-b + math.sqrt(delta)) / (2 * a)
+    if delta == 0:
+        print("S = {", raizI, "}")
+    else: 
         raizII = (-b - math.sqrt(delta)) / (2 * a)
         print("S = {", raizI, ",",raizII, "}")
-    else: 
-        raizI = (-b + math.sqrt(delta)) / (2 * a)
-        print("S = {", raizI, "}")

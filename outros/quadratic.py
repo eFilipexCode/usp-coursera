@@ -2,7 +2,7 @@ import math
 
 a = int(input("Digite o coeficiente quadrático (A): "))
 b = int(input("Digite o coeficiente linear (B): "))
-c = int (input("Digite o termo independente (C): "))
+c = int(input("Digite o termo independente (C): "))
 
 delta = b ** 2 - 4 * a * c
 
